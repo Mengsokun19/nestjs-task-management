@@ -24,6 +24,7 @@ import { Logger } from '@nestjs/common';
 export class TasksController {
   // initialize logger in controller
   private logger = new Logger('TaskController');
+
   constructor(private tasksService: TasksService) {}
 
   // Method in REST API
